@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(frontpage.png);
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+}
+
+
+.text-box{
+  color: #6d6e68;
+  z-index: 10;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.text-box p{
+  font-size: 1.1em;
+  color: #6d6e68;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.text-box h1{
+    
+    font-size: 5em;
+    font-weight: 800;
+    color: #111;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text-box a
+{
+  
+  display: inline-block;
+  font-size: 1em;
+  background: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+a{
+  display: inline-block;
+  font-size: 1em;
+  background: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+a:hover{
+background-color: rgb(231, 198, 66);;
+  letter-spacing: 1px;
+}
+
+
+.text-box a:hover
+{
+background-color: rgb(231, 198, 66);;
+  letter-spacing: 6px;
+}
+
+html {
+    background-image: url(bg.png);
+    background-position: 0px 950px;
+    background-repeat: no-repeat;
+    /* background-size: contain;*/
+    background-size: 100%;
+    background-color: #fefefe;
+    
+}
+
+@font-face {
+    font-family: lister;
+    src: url(./Lister.ttf);
+}
+
+
+.body, .centered{
+    font-family: Open Sans, Arial;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #1d1d1d;
+    padding: 0 10px;
+    letter-spacing: 1px;
+}
+
+
+textarea {
+    resize: none;
+    font-family: Open Sans, Arial;
+    font-size: 18px;
+    line-height: 1.6;
+    width: 100%;
+    color: #1d1d1d;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    border: solid 5px;
+}
+
+.error {
+    font-size: 18px;
+    font-style: italic;
+    color: #bbb;
+    float: right;
+}
+
+.title {
+    float: left;
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+    font-variant: small-caps;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+.centered {
+    resize: none;
+    font-family: Open Sans, Arial;
+    font-size: 18px;
+    line-height: 1.6;
+    width: 100%;
+    color: #222;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+
+}
+
+
+.centered button {
+    background-color: #555;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    padding: 5px 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    box-shadow: 0 9px #999;
+    transition: 0.1s;    
+    display: inline;
+    margin: 10px auto 2px auto;
+   
+}
+
+
+#addition {
+    color: #6d6e68;
+}
+
+
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 40px;
+    width: 100%;
+    color: #1d1d1d;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    border: solid 5px;
+    line-height: 1;
+    height: 300px;
+    overflow: auto;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.home__footer {
+    justify-content: right;
+    display: inline-block;
+    font-size: 1em;
+    background: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 550px;
+    color: #6d6e68;
+    transition: 0.2s;
+  }
+
+  .low-btn {
+    display: inline-block;
+  font-size: 1em;
+  background: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+}
+table.lefted td{
+   margin-right: 1000px;
+   text-align: center;
+  
+}
+table.centered td{
+    margin-right: 1000px
+    
+}
+
+@media(max-width: 700px){
+    text-box h1{
+        font-size: 20px;
+    }
+}
