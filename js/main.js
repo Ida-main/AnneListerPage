@@ -21,7 +21,7 @@ var prompts = [
 	class: 'group2'
 },
 {
-	prompt: 'I start to cry easily when people are agrivated towards me. ',
+	prompt: 'I start to cry easily when people are aggrivated towards me. ',
 	weight: -1,
 	class: 'group3'
 },
